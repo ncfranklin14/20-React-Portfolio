@@ -7,7 +7,7 @@ import { Col } from 'react-bootstrap';
 
 export default function Work() {
   return (
-<Container className ='my projects'>
+<Container className ='myProjects'>
     <h1>My Work</h1>
 <Row xs={1} md={2} className="g-4">
   {Array.from({ length: 4 }).map((_, idx) => (

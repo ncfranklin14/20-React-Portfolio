@@ -4,7 +4,7 @@ import './about.css';
 
 export default function About() {
     return (
-        <>
+        <div className='aboutContainer'>
         <img className='profile-pic' src='images/profile.jpg' alt='' />
             <div className='about' >
                 <h1>About Me</h1>
@@ -13,7 +13,7 @@ export default function About() {
                 </p>
             </div>
             <ListGroup className='skills'>
-                <h3>TECHNICAL SKILLS</h3>
+                <h3>Technical Skills:</h3>
                     <ListGroup.Item>JavaScript</ListGroup.Item>
                     <ListGroup.Item>CSS</ListGroup.Item>
                     <ListGroup.Item>HTML</ListGroup.Item>
@@ -29,6 +29,6 @@ export default function About() {
                     <ListGroup.Item>Handlebars</ListGroup.Item>
                     <ListGroup.Item>GitHub</ListGroup.Item>
             </ListGroup>
-        </>
+        </div>
     );
 }

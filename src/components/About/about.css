@@ -1,3 +1,6 @@
+.aboutContainer {
+    background-color: #40916c;
+}
 .about {
     display: flex;
     flex-direction: row;
