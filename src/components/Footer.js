@@ -8,7 +8,7 @@ const Footer = () => (
     <div className='content has-text-centered'>
             <div>
                     <div>
-                        <span className='icon'>
+                        <span className='icon is-large fas fa-2x'>
                           <div className='contactIcon'>
                             <a href="https://github.com/ncfranklin14" target="blank"><img src={github} alt="Github" id="links"/></a>
 
