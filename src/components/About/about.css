@@ -1,24 +1,36 @@
 .aboutContainer {
     background-color: #40916c;
 }
+.profile-pic{
+    width:200px;
+    border-radius: 50%;
+    margin-left: 40%;
+}
 .about {
     display: flex;
     flex-direction: row;
-    margin: 7%;
+    margin: 5%;
     margin-top: 30px;
 }
-.about h1 {
+.aboutMe {
     font-size: 35px;
     padding: 10px;
-    text-align: center;
-}
-.about p {
     justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
     margin-top: 30px;
 }
+.par {
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
 .skills {
-    margin: 7%;
+    margin: 15%;
     font-size: 15px;
+    padding-bottom: 20%;
 }
 
 @media screen and (max-width: 390px) {

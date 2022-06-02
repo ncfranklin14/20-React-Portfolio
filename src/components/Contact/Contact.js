@@ -1,32 +1,26 @@
 import React from 'react';
-import Form from 'react-bootstrap/Form';
-import { Button } from 'react-bootstrap';
 import './contact.css';
 
 export default function Contact() {
     return (
-        <Form className='contactContainer'>
-            <h1>Contact</h1>
-            <Form.Group className="mb-3" controlId="formBasicName">
-                <Form.Label>Name</Form.Label>
-                <Form.Control type="name" placeholder="Enter name" />
-                <Form.Text className="text">
-                </Form.Text>
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" />
-                <Form.Text className="text-muted">
-                </Form.Text>
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicMessage">
-                <Form.Label>Message:</Form.Label>
-                <Form.Control as type="textarea" rows={3} placeholder="Enter message" />
-            </Form.Group>
-            <Button className='btn-small' variant="primary" type="submit">
-                Submit
-            </Button>
-        </Form>
+        <div className='contactpage'>
+        <form className='form-container'>
+            <h1 className='contact'>Contact:</h1>
+            <div className="form-group">
+                <label for="Name">Name</label>
+                <input type="text" className="form-control" id="name" placeholder="Enter name"></input>
+            </div>
+            <div className="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" className="form-control" id="email" placeholder="Enter email"></input>
+            </div>
+            <div className="form-group">
+                <label for="message">Message</label>
+                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" className="btn btn-primary">Submit</button>
+        </form>
+        </div>
     );
-    
+
 }

@@ -37,7 +37,7 @@ export default function Work() {
             <Row xs={1} md={2} className="g-4">
                 {projects.map((proj) => (
                     <Col>
-                        <Card>
+                        <Card className='cards'>
                             <Card.Img variant="top" src={proj.image} />
                             <Card.Body>
                                 <Card.Title>{proj.title}</Card.Title>
