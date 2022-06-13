@@ -13,19 +13,20 @@ export default function Resume() {
                 <div className='resumeContainer'>
                     <ListGroup className='skills'>
                         <h3>Technical Skills:</h3>
+                        <h4>Front-end:</h4>
                         <ListGroup.Item>JavaScript</ListGroup.Item>
                         <ListGroup.Item>CSS</ListGroup.Item>
                         <ListGroup.Item>HTML</ListGroup.Item>
                         <ListGroup.Item>jQuery </ListGroup.Item>
                         <ListGroup.Item>Bootstrap </ListGroup.Item>
-                        <ListGroup.Item>Node</ListGroup.Item>
-                        <ListGroup.Item>Express</ListGroup.Item>
-                        <ListGroup.Item>SQL</ListGroup.Item>
-                        <ListGroup.Item>MySQL </ListGroup.Item>
-                        <ListGroup.Item>MongoDB</ListGroup.Item>
-                        <ListGroup.Item>Mongoose</ListGroup.Item>
                         <ListGroup.Item>React</ListGroup.Item>
                         <ListGroup.Item>Handlebars</ListGroup.Item>
+                        <h4>Back-end:</h4>
+                        <ListGroup.Item>Node</ListGroup.Item>
+                        <ListGroup.Item>Express</ListGroup.Item>
+                        <ListGroup.Item>MySQL/Sequelize </ListGroup.Item>
+                        <ListGroup.Item>MongoDB</ListGroup.Item>
+                        <ListGroup.Item>Mongoose</ListGroup.Item>
                         <ListGroup.Item>GitHub</ListGroup.Item>
                     </ListGroup>
                 </div>
