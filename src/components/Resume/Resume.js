@@ -7,30 +7,33 @@ import { Button } from 'react-bootstrap';
 export default function Resume() {
     return (
         <section className="resume">
-            <h2 className="resume-title">Experience</h2>
-            <div className='resume-link-container'>
-                <Button className='button' variant="primary">Download Resume</Button>{' '}
-                <div className='resumeContainer'>
-                    <ListGroup className='skills'>
-                        <h3>Technical Skills:</h3>
+            {/* <h2 className="resume-title">Experience</h2>
+            <Button className='button' variant="primary">Download Resume</Button>{' '}
+            <aside className='techSkills'>
+                <h3>Technical Skills:</h3>
+            </aside> */}
+            <div className='resumeContainer'>
+                <ListGroup className='skills'>
+                    <div className='front'>
                         <h4>Front-end:</h4>
                         <ListGroup.Item>JavaScript</ListGroup.Item>
                         <ListGroup.Item>CSS</ListGroup.Item>
-                        <ListGroup.Item>HTML</ListGroup.Item>
-                        <ListGroup.Item>jQuery </ListGroup.Item>
+                        <ListGroup.Item>HTML5</ListGroup.Item>
+                        <ListGroup.Item>JQuery </ListGroup.Item>
                         <ListGroup.Item>Bootstrap </ListGroup.Item>
-                        <ListGroup.Item>React</ListGroup.Item>
-                        <ListGroup.Item>Handlebars</ListGroup.Item>
+                        <ListGroup.Item>ReactJS</ListGroup.Item>
+                    </div>
+                    <div className='back'>
                         <h4>Back-end:</h4>
-                        <ListGroup.Item>Node</ListGroup.Item>
+                        <ListGroup.Item>NodeJS</ListGroup.Item>
                         <ListGroup.Item>Express</ListGroup.Item>
+                        <ListGroup.Item>Handlebars</ListGroup.Item>
                         <ListGroup.Item>MySQL/Sequelize </ListGroup.Item>
-                        <ListGroup.Item>MongoDB</ListGroup.Item>
-                        <ListGroup.Item>Mongoose</ListGroup.Item>
+                        <ListGroup.Item>MongoDB/Mongoose</ListGroup.Item>
                         <ListGroup.Item>GitHub</ListGroup.Item>
-                    </ListGroup>
-                </div>
-                </div>
-                </section>
-                );
-    }
+                    </div>
+                </ListGroup>
+            </div>
+        </section>
+    );
+}

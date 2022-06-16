@@ -7,6 +7,7 @@ import { Col } from 'react-bootstrap';
 import Socializer from '../../assets/Socializer.png'
 import Planter from '../../assets/Planter.png'
 import Planner from '../../assets/Planner.png'
+import MovementMapper from "../../assets/MovementMapper.png"
 
 export default function Work() {
     const projects = [{
@@ -30,6 +31,13 @@ export default function Work() {
         description: '',
         deployed:'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
         github:'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
+    },
+    {
+        title: 'Movement Mapper',
+        image: MovementMapper,
+        description: '',
+        deployed:'https://github.com/saghar-b/Movement-Mapper-Frontend',
+        github:'https://movementmapper-front.herokuapp.com/'
     }]
     return (
         <Container className='myProjects'>

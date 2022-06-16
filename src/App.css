@@ -16,11 +16,28 @@
 }
 
 .footer {
-    padding: 1rem;
+    padding: 8rem !important;
 	animation: gradient 15s ease infinite;
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	text-align: center;
     height: 30px;
+    background-color: #40916c !important;
 }
+.icon .email {
+    width:700px !important;
+    height: 20px !important;
+}
+.icon .linkedIn{
+    width:700px !important;
+    height: 20px !important;
+}
+
+.icon .git{
+    width:700px !important;
+    height: 20px !important;
+}
+
+;
+

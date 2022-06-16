@@ -8,11 +8,13 @@ export default function About() {
     }
     return (
         <div className='aboutContainer'>
-                <h1 className='aboutMe'>About Me</h1>
-                <img className='profile-pic' src={image.image} alt=''/>
-                <p className='par'>
-                    Full stack developer leveraging a background in Sales, Marketing, and Account Management for technologoy companies. I bring a unique perscpective by having a diverse background from the business side of tech and now I want to constribute to the functionality.
-                </p>
-            </div>
+            <h1 className='aboutMe'>About Me</h1>
+            <img className='profile-pic' src={image.image} alt='' />
+            <p className='par'>
+                Aspiring full-stack web developer with a Full-Stack Web Development Certificate from the University of Washington. Leveraging a background in Sales, Marketing, and Account Management for technology companies. I bring a unique perspective by having a diverse background on the business side and want to continue a career working on the development and functional side of products.
+
+                I'm passionate about exploring the outdoors and spend my free time enjoying the mountains.
+            </p>
+        </div>
     );
 }

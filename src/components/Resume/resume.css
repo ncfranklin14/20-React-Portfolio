@@ -1,9 +1,37 @@
+.resume {
+    margin-top: 10px;
+}
 .resumeContainer {
     background-color: #40916c;
 }
+.skills{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+}
+.techSkills{
+text-align: center;
+}
+.back{
+    width: 200px;
+}
+.front{
+    width: 200px;
+
+}
 .resume-title{
     text-align: center;
+    margin-bottom: 40px;
 }
 .button {
-margin-left: 43%;
+margin-left: 44%;
+margin-bottom: 20px;
+
+}
+
+@media screen and (max-width: 390px) {
+    .button {
+        margin-left: 30%;
+        }
+        
 }
