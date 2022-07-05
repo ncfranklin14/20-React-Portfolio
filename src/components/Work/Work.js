@@ -13,7 +13,8 @@ export default function Work() {
     const projects = [{
         title: 'Socializer',
         image: Socializer,
-        description: 'Event planner application',
+        description: 'Event planner app',
+        tools: 'HTML,CSS, JavaScript, JQuery',
         deployed: 'https://anoorishad.github.io/Socializer/',
         github: 'https://github.com/anoorishad/Socializer'
 
@@ -22,13 +23,15 @@ export default function Work() {
         title: ' The Planter',
         image: Planter,
         description: 'Communal blog forum used to crowdsource names for plants',
+        tools: 'Handlebars, mySQL, Cloudinary, JavaScript, NodeJS',
         deployed:'https://secret-waters-02737.herokuapp.com/login',
         github:'https://github.com/ncfranklin14/the-planter'
     },
     {
         title: 'Workday Planner',
         image: Planner,
-        description: 'Application used to add events to the daily planner and help manage time effectively',
+        description: 'App used to add events to the daily planner and help manage time effectively',
+        tools: 'HTLM, JavaScript, CSS',
         deployed:'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
         github:'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
     },
@@ -36,6 +39,7 @@ export default function Work() {
         title: 'Movement Mapper',
         image: MovementMapper,
         description: 'Build and track fitness challenges',
+        tools: 'React, Express, MySQL, Bycrypt',
         deployed:'https://github.com/saghar-b/Movement-Mapper-Frontend',
         github:'https://movementmapper-front.herokuapp.com/'
     }]
@@ -51,6 +55,9 @@ export default function Work() {
                                 <Card.Title>{proj.title}</Card.Title>
                                 <Card.Text>
                                     {proj.description}
+                                </Card.Text>
+                                <Card.Text>
+                                    {proj.tools}
                                 </Card.Text>
                                 <Card.Link href={proj.deployed}>Deployed</Card.Link>
                                 <Card.Link href={proj.github}>Github</Card.Link>
