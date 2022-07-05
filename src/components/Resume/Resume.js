@@ -9,30 +9,32 @@ export default function Resume() {
         <section className="resume">
             <h2 className="resume-title">Experience</h2>
             <div className='linkToRes'>
-            <a href={resume} download="Resume.pdf">Download Resume </a>
+                <a href={resume} download="Resume.pdf">Download Resume </a>
             </div>
             <div className='resumeContainer'>
-                <ListGroup className='skills'>
-                    <div className='front'>
-                        <h4>Front-end:</h4>
-                        <ListGroup.Item>JavaScript</ListGroup.Item>
-                        <ListGroup.Item>CSS</ListGroup.Item>
-                        <ListGroup.Item>HTML5</ListGroup.Item>
-                        <ListGroup.Item>JQuery </ListGroup.Item>
-                        <ListGroup.Item>Bootstrap </ListGroup.Item>
-                        <ListGroup.Item>Handlebars</ListGroup.Item>
-                        <ListGroup.Item>ReactJS</ListGroup.Item>
-                    </div>
-                    <div className='back'>
-                        <h4>Back-end:</h4>
-                        <ListGroup.Item>NodeJS</ListGroup.Item>
-                        <ListGroup.Item>Express</ListGroup.Item>
-                        <ListGroup.Item>MySQL/Sequelize </ListGroup.Item>
-                        <ListGroup.Item>MongoDB/Mongoose</ListGroup.Item>
-                        <ListGroup.Item>GitHub</ListGroup.Item>
-                    </div>
-                </ListGroup>
+                <div className='front'>
+                    <h4>Front-end:</h4>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML5</li>
+                        <li>JQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Handlebars</li>
+                        <li>ReactJS</li>
+                    </ul>
+                </div>
+                <div className='back'>
+                    <h4>Back-end:</h4>
+                    <ul>
+                        <li>NodeJS</li>
+                        <li>Express</li>
+                        <li>MySQL/Sequelize </li>
+                        <li>MongoDB/Mongoose</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
             </div>
-        </section>
+        </section >
     );
 }
