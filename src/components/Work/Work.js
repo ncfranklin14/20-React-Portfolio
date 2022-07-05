@@ -13,7 +13,7 @@ export default function Work() {
     const projects = [{
         title: 'Socializer',
         image: Socializer,
-        description: '',
+        description: 'Event planner application',
         deployed: 'https://anoorishad.github.io/Socializer/',
         github: 'https://github.com/anoorishad/Socializer'
 
@@ -21,21 +21,21 @@ export default function Work() {
     {
         title: ' The Planter',
         image: Planter,
-        description: '',
+        description: 'Communal blog forum used to crowdsource names for plants',
         deployed:'https://secret-waters-02737.herokuapp.com/login',
         github:'https://github.com/ncfranklin14/the-planter'
     },
     {
         title: 'Workday Planner',
         image: Planner,
-        description: '',
+        description: 'Application used to add events to the daily planner and help manage time effectively',
         deployed:'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
         github:'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
     },
     {
         title: 'Movement Mapper',
         image: MovementMapper,
-        description: '',
+        description: 'Build and track fitness challenges',
         deployed:'https://github.com/saghar-b/Movement-Mapper-Frontend',
         github:'https://movementmapper-front.herokuapp.com/'
     }]
