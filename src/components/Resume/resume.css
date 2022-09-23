@@ -26,6 +26,8 @@
 .resume-title {
     text-align: center;
     margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
 .linkToRes {
