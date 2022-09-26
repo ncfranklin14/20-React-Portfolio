@@ -1,9 +1,57 @@
-/* .card-img-top {
-    width: 100px;
-    height: 300px;
-} */
+.card-img-top {
+    /* border-radius: 15px; */
+    height: 47%;
+    margin-bottom: 10px;
+}
 
 .workTitle {
     text-decoration: underline;
     text-decoration-thickness: 3px;
+}
+
+.cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 90%;
+    padding: 10px 0;
+}
+
+.myProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 10% !important;
+    margin-right: 15% !important;
+}
+
+.card-body {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+
+@media screen and (max-width: 390px) {
+    .myProjects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 5% !important;
+        margin-right: 15% !important;
+    }
+
+    .cards {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        height: 90%;
+        padding: 10px 0;
+    }
+
+    .card-body {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
 }

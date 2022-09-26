@@ -39,7 +39,7 @@ export default function Work() {
         title: 'Movement Mapper',
         image: MovementMapper,
         description: 'Build and track fitness challenges',
-        tools: 'React, Express, MySQL, Bycrypt',
+        tools: 'React, Express, MySQL, bycrypt',
         deployed:'https://github.com/saghar-b/Movement-Mapper-Frontend',
         github:'https://movementmapper-front.herokuapp.com/'
     }]
