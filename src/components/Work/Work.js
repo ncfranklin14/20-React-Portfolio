@@ -14,7 +14,7 @@ export default function Work() {
         title: 'Socializer',
         image: Socializer,
         description: 'Event planner app',
-        tools: 'HTML,CSS, JavaScript, JQuery',
+        tools: 'HTML5, CSS, JavaScript, JQuery',
         deployed: 'https://anoorishad.github.io/Socializer/',
         github: 'https://github.com/anoorishad/Socializer'
 
@@ -23,7 +23,7 @@ export default function Work() {
         title: ' The Planter',
         image: Planter,
         description: 'Communal blog forum used to crowdsource names for plants',
-        tools: 'Handlebars, mySQL, Cloudinary, JavaScript, NodeJS',
+        tools: 'Handlebars, MySQL, Cloudinary, JavaScript, NodeJS',
         deployed:'https://secret-waters-02737.herokuapp.com/login',
         github:'https://github.com/ncfranklin14/the-planter'
     },
@@ -31,7 +31,7 @@ export default function Work() {
         title: 'Workday Planner',
         image: Planner,
         description: 'App used to add events to the daily planner and help manage time effectively',
-        tools: 'HTLM, JavaScript, CSS',
+        tools: 'HTLM5, JavaScript, CSS',
         deployed:'https://ncfranklin14.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
         github:'https://github.com/ncfranklin14/05-Third-Party-APIs-Work-Day-Scheduler'
     },
@@ -40,8 +40,8 @@ export default function Work() {
         image: MovementMapper,
         description: 'Build and track fitness challenges',
         tools: 'React, Express, MySQL, bycrypt',
-        deployed:'https://github.com/saghar-b/Movement-Mapper-Frontend',
-        github:'https://movementmapper-front.herokuapp.com/'
+        deployed:'https://movementmapper-front.herokuapp.com/',
+        github:'https://github.com/saghar-b/Movement-Mapper-Frontend'
     }]
     return (
         <Container className='myProjects'>
