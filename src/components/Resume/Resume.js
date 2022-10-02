@@ -31,7 +31,6 @@ export default function Resume() {
                         <li>Express</li>
                         <li>MySQL/Sequelize </li>
                         <li>MongoDB/Mongoose</li>
-                        <li>GitHub</li>
                     </ul>
                 </div>
             </div>
