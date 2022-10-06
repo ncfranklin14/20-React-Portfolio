@@ -8,13 +8,14 @@
     width: 500px;
     border: 5px solid #266150;
     box-sizing: border-box;
+    padding-bottom: 6%;
 }
 .workTitle {
     text-decoration: underline;
-    text-decoration-thickness: 3px;
     justify-content: center;
     text-align: center;
     font-size: 35px;
+    padding-top: 10px;
 }
 
 .cards {
