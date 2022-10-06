@@ -4,8 +4,9 @@ import './contact.css';
 export default function Contact() {
     return (
         <div className='contactpage'>
+        <h1 className='contact1'>Contact</h1>
         <form className='form-container'>
-            <h1 className='contact'>Contact:</h1>
+            <h2 className='contact'>Contact Me:</h2>
             <div className="form-group">
                 <label for="Name">Name</label>
                 <input type="text" className="form-control" id="name" placeholder="Enter name"></input>

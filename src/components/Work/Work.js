@@ -45,7 +45,9 @@ export default function Work() {
     }]
     return (
         <Container className='myProjects'>
-            <h1 className= 'workTitle'>Work</h1>
+            <div className='workTitle1'>
+            <h1 className= 'workTitle'>Projects</h1>
+            </div>
             <Row xs={1} md={2} className="g-4">
                 {projects.map((proj) => (
                     <Col>

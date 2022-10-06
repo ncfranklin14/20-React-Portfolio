@@ -41,5 +41,20 @@
     height: 20px !important;
 }
 
-;
+@media screen and (max-width: 390px) {
+.footer {
+    padding: 50% !important;
+    background-color: #40916c !important;
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+.portfolio {
+    background-color: #40916c;
+}
+
+}
 

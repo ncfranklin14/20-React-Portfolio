@@ -7,12 +7,7 @@
     border-radius: 50%;
     margin-left: 36%;
 }
-.about {
-    display: flex;
-    flex-direction: row;
-    margin: 5%;
-    margin-top: 30px;
-}
+
 .aboutMe {
     font-size: 35px;
     padding: 10px;
@@ -23,7 +18,9 @@
     margin: 2%;
     margin-top: 30px;
     text-decoration: underline;
-    text-decoration-thickness: 3px;
+    border: 5px solid #266150;
+    width: 500px;
+    margin-left: 32%;
 }
 .par {
     justify-content: center;
@@ -32,18 +29,28 @@
     margin-left: 15%;
     margin-right: 15%;
 }
-.skills {
-    margin: 15%;
-    font-size: 15px;
-    padding-bottom: 20%;
-}
 
 @media screen and (max-width: 390px) {
-    .about {
+    .aboutContainer {
         display: flex;
         flex-direction: column;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .aboutMe {
+        font-size: 35px;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+        margin-top: 30px;
+        text-decoration: underline;
+        border: 5px solid #266150;
+        width: 300px;
+        /* margin-left: 10%; */
     }
 
     .profile-pic{
@@ -51,21 +58,16 @@
         border-radius: 50%;
         margin-left: 23%;
     }
-
+/* 
     .skills {
         position: relative;
         bottom: 20px;
-    }
+    } */
 
     .about h1 {
         font-size: 20px;
         font-weight: bold;
         padding: 5px;
 
-    }
-    .skills h1 {
-        font-size: 10px;
-        font-weight: bold;
-        padding: 5px;
     }
 }

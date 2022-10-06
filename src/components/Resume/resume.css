@@ -1,5 +1,5 @@
 .resume {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .resumeContainer {
@@ -28,6 +28,13 @@
     margin-bottom: 40px;
     text-decoration: underline;
     text-decoration-thickness: 3px;
+    height: 60px;
+    width: 500px;
+    border: 5px solid #266150;
+    box-sizing: border-box;
+    margin-left: 32%;
+    font-size: 35px;
+    padding-bottom: 4%;
 }
 
 .linkToRes {
@@ -38,6 +45,38 @@
 @media screen and (max-width: 390px) {
     .button {
         margin-left: 30%;
+    }
+
+    .linkToRes {
+        padding: 15px;
+    }
+
+    .resume-title {
+        font-size: 35px;
+        padding: 5px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+        margin-top: 5px;
+        text-decoration: underline;
+        border: 5px solid #266150;
+        width: 300px;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .back {
+        width: 100px;
+        text-align: left;
+        margin-right: 30%;
+    }
+    
+    .front {
+        width: 200px;
+        text-align: left;
+    
     }
 
 }
