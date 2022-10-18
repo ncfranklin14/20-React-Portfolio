@@ -5,10 +5,31 @@
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
-.nav{
+
+Header {
+    padding: 20px 0px;
     background-color: #78c6a3;
+  }
+  
+  Header h1 {
+    background-color: #266150;
+    font-size: 50px;
+    padding: 5px 80px 10px 100px;
+    padding-left: 20px;
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 550px;
+  }
+
+.nav-item {
     text-decoration: underline;
     text-decoration-thickness: 3px;
+}
+.nav{
+    background-color: #78c6a3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    align-items: center;
 }
 .contactIcon {
     display: flex;
@@ -54,7 +75,34 @@
 
 .portfolio {
     background-color: #40916c;
+    
 }
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+
+Header {
+    background-color: #78c6a3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  Header h1 {
+    background-color: #266150;
+    font-size: 30px;
+    padding: 10px 50px 10px 150px;
+    color: white;
+    border-radius: 0px 7px 7px 0px;
+  }
 
 }
 

@@ -1,13 +1,10 @@
 import React from 'react';
-import Navigation from './Navigation';
 
 function Header() {
     return (
-      <div className="portfolio-app">
-        <Header
-        />
-        <Navigation/>
-      </div>
+      <header className="Header">
+        <h1>Nicole Franklin</h1>
+      </header>
     );
   }
 
