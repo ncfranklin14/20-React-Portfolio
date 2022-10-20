@@ -4,10 +4,12 @@
     margin-bottom: 10px;
 }
 .workTitle1 {
-    height: 60px;
-    width: 500px;
+    height: 40px;
+    width: 95%;
+    margin-right: 5%;
     border: 5px solid #266150;
-    border-radius: 20px;
+    background-color:#266150;
+    border-radius: 10px;
     box-sizing: border-box;
     padding-bottom: 6%;
 }
@@ -25,6 +27,8 @@
     width: 90%;
     height: 90%;
     padding: 10px 0;
+    border: 5px solid #eaeaea !important;
+    border-radius: 10px;
 }
 
 .myProjects {
@@ -43,7 +47,7 @@
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
     .myProjects {
         display: flex;
         flex-wrap: wrap;
@@ -53,19 +57,20 @@
     }
 
     .workTitle1 {
-        font-size: 35px;
-        padding: 5px;
         justify-content: center;
         text-align: center;
         display: flex;
         flex-direction: row;
         margin: 2%;
-        margin-top: 5px;
-        text-decoration: underline;
-        border: 5px solid #266150;
-        width: 300px;
-        margin-left: 2%;
+        width: 95%;
+        height: 50px;
+        margin-left: 1%;
         margin-right: 10%;
+    }
+
+    .workTitle {
+        font-size: 30px;
+        padding-top: 1px;
     }
 
     .cards {

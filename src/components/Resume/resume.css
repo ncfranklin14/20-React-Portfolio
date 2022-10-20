@@ -27,12 +27,13 @@
     text-align: center;
     margin-bottom: 40px;
     text-decoration: underline;
-    height: 60px;
-    width: 500px;
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
     border: 5px solid #266150;
+    background-color:#266150;
     box-sizing: border-box;
-    border-radius: 20px;
-    margin-left: 32%;
+    border-radius: 10px;
     font-size: 30px;
     padding-bottom: 4%;
     padding-top: 10px;
@@ -43,7 +44,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
     .button {
         margin-left: 30%;
     }
@@ -54,7 +55,6 @@
 
     .resume-title {
         font-size: 35px;
-        padding: 5px;
         justify-content: center;
         text-align: center;
         display: flex;
@@ -63,9 +63,12 @@
         margin-top: 5px;
         text-decoration: underline;
         border: 5px solid #266150;
-        width: 300px;
+        height: 50px;
+        width: 80%;
         margin-left: 10%;
         margin-right: 5%;
+        padding-bottom: 10%;
+        padding-top: 1%;
     }
 
     .back {
