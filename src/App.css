@@ -65,7 +65,6 @@ Header {
 
 @media screen and (max-width: 390px) {
 .footer {
-    padding: 50% !important;
     background-color: #40916c !important;
     display: flex;
     flex-direction: row;

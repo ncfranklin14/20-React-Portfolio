@@ -12,15 +12,12 @@
     margin-top: 5%;
 }
 
-.back {
-    width: 300px;
-    text-align: left;
-}
-
-.front {
-    width: 300px;
-    text-align: left;
-
+.skills {
+    margin-right: 15%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .resume-title {
@@ -40,17 +37,26 @@
 }
 
 .linkToRes {
+    margin-left: 41%;
     text-align: center;
     font-weight: bold;
+    border-radius: 10px;
+    background-color:#266150;
+    border: 2px solid white;
+    padding: 16px 32px;
+    opacity: 1;
+    transition: 0.3s;
+    color: white;
+    font-size: 20px;
 }
 
+.linkToRes:hover {opacity: 0.6}
+
 @media screen and (max-width: 375px) {
-    .button {
-        margin-left: 30%;
-    }
 
     .linkToRes {
         padding: 15px;
+        margin-left: 22%;
     }
 
     .resume-title {
@@ -71,16 +77,8 @@
         padding-top: 1%;
     }
 
-    .back {
-        width: 100px;
-        text-align: left;
-        margin-right: 30%;
-    }
-    
-    .front {
-        width: 200px;
-        text-align: left;
-    
+    .skills {
+        margin-bottom: 10%;
     }
 
 }
