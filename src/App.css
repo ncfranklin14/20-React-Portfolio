@@ -16,9 +16,9 @@ Header {
     background-color: #139b74;
     font-size: 50px;
     padding: 5px 80px 10px 100px;
-    padding-left: 20px;
+    padding-left: 50px;
     border-radius: 0px 7px 7px 0px;
-    margin-right: 550px;
+    margin-right: 450px;
   }
 
 .nav-item {
@@ -31,6 +31,7 @@ Header {
     flex-wrap: wrap;
     justify-content: space-around !important;
     align-items: center;
+    padding-right: 30px;
 }
 .contactIcon {
     display: flex;
@@ -79,8 +80,8 @@ Header {
 }
 
 .nav{
-    display: flex;
-    flex-wrap: wrap;
+    display: flex !important;
+    flex-wrap: wrap !important;
     justify-content: space-between !important;
     align-items: center;
     width: 100%;
